@@ -1,0 +1,17 @@
+{
+  "name": "Node.js Development",
+  "image": "mcr.microsoft.com/vscode/devcontainers/javascript-node:16",
+  "features": {
+    "ghcr.io/devcontainers/features/node:1": {
+      "version": "16"
+    }
+  },
+  "settings": {
+    "terminal.integrated.shell.linux": "/bin/bash"
+  },
+  "extensions": [
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode"
+  ],
+  "postCreateCommand": "npm install"
+}
